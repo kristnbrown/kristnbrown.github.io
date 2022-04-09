@@ -35,6 +35,7 @@ header li {
 }
 
 section {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,22 +107,18 @@ header a {
 }
 
 #hero {
-    height: 100vh;
     width: 100vw;
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
 }
 
 #artwork {
-    height: 50vh;
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
 }
 
 #about {
-    height: 50vh;
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/beach.jpg');
 }
 
 #contact {
-    height: 50vh;
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
 }
