@@ -76,53 +76,6 @@ sidebar{
     padding: 20px 0;
 }
 
-#slideshow {
-  overflow: hidden;
-}
- 
-slide {
-  float: left;
-}
- 
-slide-wrapper {
-  width: calc(300px * 4);
-  animation: slide 10s ease infinite;
-}
- 
-slide:nth-child(1) {
-  background: green;
-}
- 
-slide:nth-child(2) {
-  background: pink;
-}
- 
-slide:nth-child(3) {
-  background: red;
-}
- 
-slide:nth-child(4) {
-  background: yellow;
-}
- 
-@keyframes slide {
-  20% {
-    margin-left: 0px;
-  }
- 
-  40% {
-    margin-left: calc(-300px * 1);
-  }
- 
-  60% {
-    margin-left: calc(-300px * 2);
-  }
- 
-  80% {
-    margin-left: calc(-300px * 3);
-  }
-}
-
 section {
     height: 100vh;
     width: 100vw;
@@ -150,21 +103,6 @@ footer {
     font-size: 5em;
     margin-top: 0;
     margin-bottom: 0.5em;
-}
-
-#hero .btn {
-    display: block;
-    width: 200px;
-    padding: 1em;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    text-decoration: none;
-    font-size: 1.5em;
-    border: 3px solid white;
-    border-radius: 20px;
-    background-color: rgba(147, 112, 219, 0.8);
 }
 
 #artwork .artbtn1 {
@@ -235,6 +173,18 @@ artwork-inner {
   grid-template-columns: repeat(3, 1fr);
   place-items: center;
   gap: 1rem;
+}
+
+radial-repeating {
+	border-width: 20px;
+	border-image: repeating-radial-gradient(
+			circle at 10px,
+			turquoise,
+			pink 2px,
+			greenyellow 4px,
+			pink 2px
+		)
+		1;
 }
 
 section h2 {
