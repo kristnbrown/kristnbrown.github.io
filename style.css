@@ -47,6 +47,13 @@ section {
     background-attachment: fixed; 
 }
 
+.inner section {
+    background-color: whitesmoke;
+    padding: 15px;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+
 #hero .profile-img {
     width: 300px;
     border-radius: 50%;
@@ -97,6 +104,7 @@ header a {
 }
 
 #artwork {
+    height: 50vh;
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
 }
 
