@@ -167,8 +167,7 @@ footer {
     border: 3px solid white;
     border-radius: 20px;
     align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat; 
