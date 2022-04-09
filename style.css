@@ -164,6 +164,15 @@ artwork-inner {
   gap: 1rem;
 }
 
+border {
+	font-size: 1.6rem;
+	display: grid;
+	place-items: center;
+	min-height: 200px;
+	border: 8px solid;
+	padding: 1rem;
+}
+
 radial-repeating {
 	border-width: 20px;
 	border-image: repeating-radial-gradient(
