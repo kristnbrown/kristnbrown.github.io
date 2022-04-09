@@ -29,7 +29,6 @@ nav {
 	display: flex;
 	background: #fff;
 	position: fixed;
-	display: inline-block;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -66,8 +65,7 @@ ul {
       text-transform: uppercase;
       transition: color 0.2s;
     }
-
-ul {
+    ul {
       visibility: hidden;
       opacity: 0;
       position: absolute;
@@ -148,7 +146,7 @@ footer {
     padding: 50px;
 }
 
-#hero h1 {
+#home h1 {
     font-size: 5em;
     margin-top: 0;
     margin-bottom: 0.5em;
