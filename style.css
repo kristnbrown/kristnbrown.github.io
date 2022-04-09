@@ -29,7 +29,7 @@ body {
 header {
     display: flex;
     background: #fff;
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -71,27 +71,21 @@ sidebar{
     position: fixed;
     top: 0;
     left: 0;
-    width: 225px;
+    width: 300px;
     height: 100%;
     padding: 20px 0;
-    transition: all 0.5s ease;
 }
 
 #slideshow {
   overflow: hidden;
-  height: 510px;
-  width: 728px;
-  margin: 0 auto;
 }
  
 slide {
   float: left;
-  height: 510px;
-  width: 728px;
 }
  
 slide-wrapper {
-  width: calc(728px * 4);
+  width: calc(300px * 4);
   animation: slide 10s ease infinite;
 }
  
@@ -117,15 +111,15 @@ slide:nth-child(4) {
   }
  
   40% {
-    margin-left: calc(-728px * 1);
+    margin-left: calc(-300px * 1);
   }
  
   60% {
-    margin-left: calc(-728px * 2);
+    margin-left: calc(-300px * 2);
   }
  
   80% {
-    margin-left: calc(-728px * 3);
+    margin-left: calc(-300px * 3);
   }
 }
 
