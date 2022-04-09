@@ -66,6 +66,17 @@ nav-item {
     margin: 2rem 0;
 }
 
+sidebar{
+    background: rgb(5, 68, 104);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
 section {
     height: 100vh;
     display: flex;
