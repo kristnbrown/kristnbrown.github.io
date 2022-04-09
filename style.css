@@ -144,10 +144,6 @@ artwork-inner {
   gap: 1rem;
 }
 
-border {
-	border: 8px solid;
-}
-
 radial-repeating {
 	border-width: 20px;
 	border-image: repeating-radial-gradient(
@@ -178,6 +174,7 @@ header a {
 }
 
 #artwork {
+	border: 8px solid;
     background-image: url('images/BGBG.png');
 }
 
@@ -186,5 +183,6 @@ header a {
 }
 
 #contact {
+	border: 8px solid;
     background-image: url('images/BGBG.png');
 }
