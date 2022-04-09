@@ -162,13 +162,7 @@ header a {
 
 #artwork {
 	border: 8px solid;
-	border-image: repeating-radial-gradient(
-			circle at 10px,
-			turquoise,
-			pink 2px,
-			greenyellow 4px,
-			pink 2px
-		)
+	border-image: linear-gradient(to left, turquoise, greenyellow) 1 0;
     background-image: url('images/BGBG.png');
 }
 
@@ -178,12 +172,6 @@ header a {
 
 #contact {
 	border: 8px solid;
-	border-image: repeating-radial-gradient(
-			circle at 10px,
-			turquoise,
-			pink 2px,
-			greenyellow 4px,
-			pink 2px
-		)
+	border-image: linear-gradient(to left, turquoise, greenyellow) 1 0;
     background-image: url('images/BGBG.png');
 }
