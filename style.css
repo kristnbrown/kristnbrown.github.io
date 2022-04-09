@@ -35,7 +35,6 @@ header li {
 }
 
 section {
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +51,16 @@ section-inner {
     border: 2px solid black;
     width: 50px;
     height: 50px;
-
+    
+#wrapper {
+    background-color: deepskyblue;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+  
 #hero .profile-img {
     width: 300px;
     border-radius: 50%;
