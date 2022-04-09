@@ -1,7 +1,8 @@
 body {
     margin: 0;
-    margin-top: 50px;
+    margin-top: 80px;
     font-family: sans-serif;
+    padding: 30px;
 }
 
 header {
@@ -10,14 +11,19 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 50px;
+    height: 80px;
     line-height: 50px;
     background-color: #eee;
+    box-shadow: 0 0 10px 0 black;
 }
 
 header * {
     display: inline;
-    height: 50px;
+}
+
+header img {
+    margin-left: 40px;
+    height: 80px;
 }
 
 header ul {
@@ -25,7 +31,7 @@ header ul {
 }
 
 header li {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 section {
