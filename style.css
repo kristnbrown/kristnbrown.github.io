@@ -46,7 +46,7 @@ section {
     background-attachment: fixed; 
 }
 
-.inner section {
+section-inner {
     background-color: whitesmoke;
     padding: 15px;
     border: 2px solid black;
