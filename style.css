@@ -28,14 +28,15 @@ body {
 
 header {
     display: flex;
-    position: fixed;
+    background: #fff;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
     height: 80px;
     line-height: 80px;
-    background-color: #eee;
-    box-shadow: 0 0 10px 0 black;
+    box-shadow: 2px 3px 2px #f1f1f1;
+    z-index: 1;
 }
 
 header * {
@@ -56,16 +57,9 @@ header li {
 }
 
 nav {
-  background: #fff;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
-  box-shadow: 2px 3px 2px #f1f1f1;
-  position: sticky;
-  top: 0;
-  left: 0;
-  z-index: 1;
 }
 
 .hamburger {
@@ -180,10 +174,10 @@ footer {
 }
 
 artwork-inner {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  gap: 1rem;
 }
 
 section h2 {
