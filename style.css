@@ -41,7 +41,7 @@ section {
     background-attachment: fixed; 
 }
 
-#home .profile-img {
+#hero .profile-img {
     width: 300px;
     border-radius: 50%;
 }
@@ -51,8 +51,25 @@ footer {
     padding: 50px;
 }
 
-#home h1 {
-    font-size: 3em;
+#hero h1 {
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+#hero .btn {
+    display: block;
+    width: 200px;
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: rgba(147, 112, 219, 0.8);
 }
 
 section h2 {
@@ -68,7 +85,8 @@ header a {
     color: black;
 }
 
-#home {
+#hero {
+    width: 100vw;
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
 }
 
