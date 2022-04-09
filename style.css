@@ -142,11 +142,10 @@ footer {
 }
 
 artwork-inner {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: 1fr;
-grid-column-gap: 80px;
-grid-row-gap: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 section h2 {
