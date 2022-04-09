@@ -69,6 +69,7 @@ section {
     height: 100vh;
     width: 100vw;
     display: flex;
+    flex-wrap: wrap
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -94,20 +95,20 @@ footer {
     margin-bottom: 0.5em;
 }
 
-#artwork .artbtn1 {
-    display: block;
-    width: 200px;
-    height: 200px;
+#artwork artbtn {
+    position: absolute;
+    width: 300px;
+    height: 450px;
     padding: 1em;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+    transition: 0.5s;
     color: white;
-    text-decoration: none;
-    font-size: 1.5em;
     border: 3px solid white;
     border-radius: 20px;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     background-size: cover; 
     background-position: center center; 
@@ -115,46 +116,25 @@ footer {
     background-image:url("images/Placeholder.png");
 }
 
-#artwork .artbtn2 {
-    display: block;
-    width: 200px;
-    height: 200px;
-    padding: 1em;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    text-decoration: none;
-    font-size: 1.5em;
-    border: 3px solid white;
-    border-radius: 20px;
-    align-items: center;
-    flex-wrap: wrap;
-    background-size: cover; 
-    background-position: center center; 
-    background-repeat: no-repeat; 
-    background-image:url("images/Placeholder.png");
+#artwork artbtn:hover {
+   transform: translateY(-50px);
 }
 
-#artwork .artbtn3 {
-    display: block;
-    width: 200px;
-    height: 200px;
-    padding: 1em;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    text-decoration: none;
-    font-size: 1.5em;
-    border: 3px solid white;
-    border-radius: 20px;
-    align-items: center;
-    flex-wrap: wrap;
-    background-size: cover; 
-    background-position: center center; 
-    background-repeat: no-repeat; 
-    background-image:url("images/Placeholder.png");
+#artwork artbtn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+}
+
+#artwork artbtn h1 {
+  position: absolute;
+  top: -30px;
+  right: 30px;
+  font-size: 5rem;
+  color: rgba(255, 255, 255, 0.1);
 }
 
 artwork-inner {
@@ -165,12 +145,7 @@ artwork-inner {
 }
 
 border {
-	font-size: 1.6rem;
-	display: grid;
-	place-items: center;
-	min-height: 200px;
 	border: 8px solid;
-	padding: 1rem;
 }
 
 radial-repeating {
