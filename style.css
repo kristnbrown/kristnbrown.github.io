@@ -66,22 +66,6 @@ nav-item {
     margin: 2rem 0;
 }
 
-hamburger {
-  display: none;
-}
-
-hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-}
-
-hamburger.active .bar:nth-child(1) {
-    transform: translateY(10px) rotate(45deg);
-}
-
-hamburger.active .bar:nth-child(3) {
-    transform: translateY(-10px) rotate(-45deg);
-}
-
 section {
     height: 100vh;
     display: flex;
@@ -123,7 +107,6 @@ footer {
     border: 3px solid white;
     border-radius: 20px;
     background-color: rgba(147, 112, 219, 0.8);
-    
 }
 
 #artwork .artbtn1 {
@@ -207,27 +190,6 @@ section h3 {
 header a {
     text-decoration: none;
     color: black;
-}
-
-@media screen and (max-width: 768px) {
-  .hamburger {
-    display: block;
-    cursor: pointer;
- }
-}
-
-ul {
-    background-color: #fff;
-    flex-direction: column;
-    position: fixed;
-    left: 100%;
-    top: 5rem;
-    width: 100%;
-    text-align: center;
-}
-
-ul.active {
-    left: 0;
 }
 
 #hero {
