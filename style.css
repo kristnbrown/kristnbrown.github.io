@@ -13,7 +13,6 @@ banner
 
 sidebar 
 {
-  position: -webkit-sticky;
   position: sticky;
   width: 25%;
   height: 50%;
