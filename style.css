@@ -79,6 +79,7 @@ video
 info 
 { 
   grid-area: info; 
+  border: 1px;
 }
 
 h2
