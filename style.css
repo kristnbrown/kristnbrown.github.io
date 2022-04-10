@@ -16,6 +16,32 @@ nav
   display: flex;
   height: 80px;
   position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  line-height: 50px;
+  background-color: #eee;
+  box-shadow: 0 0 10px 0 black;
+}
+
+nav * {
+    display: inline;
+    height: 50px;
+}
+
+nav img {
+    margin-left: 40px;
+    height: 80px;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    margin-left: 20px;
+    margin-left: 10px;
 }
 
 video-section
