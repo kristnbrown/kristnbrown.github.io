@@ -58,28 +58,6 @@ section
   background-size: cover;
 }
 
-video-section
-{
-  display: grid; 
-  grid-template-columns: 1fr 1fr 1fr; 
-  grid-template-rows: 1fr; 
-  gap: 0px 0px; 
-  grid-template-areas: "video video info";
-  align-content: space-evenly; 
-  justify-items: center;
-}
-
-video
-{ 
-  grid-area: video; 
-}
-
-info 
-{ 
-  grid-area: info; 
-  border: 1px;
-}
-
 h2
 {
   margin-top: 30px;
