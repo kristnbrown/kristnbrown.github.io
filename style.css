@@ -24,6 +24,7 @@ nav
   height: 80px;
   line-height: 50px;
   background-color: #eee;
+  text-decoration: none;
 }
 
 nav *
@@ -47,7 +48,6 @@ nav li
 {
   margin-left: 20px;
   justify-content: space-between;
-  text-decoration: none;
 }
 
 section
