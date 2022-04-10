@@ -13,6 +13,7 @@ banner
 
 sidebar 
 {
+  top:25%;
   position: sticky;
   width: 25%;
   height: 50%;
@@ -73,3 +74,20 @@ nav ul
     }
   }
 }
+
+video-section
+{
+  display: flex;
+  
+}
+
+gallery-section
+{
+  display: flex;
+}
+
+info-section
+{
+  display: flex;
+}
+
