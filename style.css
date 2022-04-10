@@ -35,7 +35,7 @@ nav img
 {
     display: inline-block;
     height: 60px;
-  padding: 40px, 40px, auto, auto;
+  padding: auto, 40px, auto, 40px;
 }
 
 nav ul 
