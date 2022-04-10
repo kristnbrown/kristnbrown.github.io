@@ -46,21 +46,19 @@ nav li {
 video-section
 {
   display: flex;
-  height:100vh;
-  
+  height:500px;
 }
 
 gallery-section
 {
   display: flex;
-  height:100vh;
+  height:500px;
 }
 
 info-section
 {
   display: flex;
-  height:100vh;
-  
+  height:500px;
 }
 
 #projects
