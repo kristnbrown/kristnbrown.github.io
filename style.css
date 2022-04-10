@@ -5,6 +5,12 @@ html
   background: #5e42a6;
 }
 
+banner
+{
+  height:75%;
+  width:100%
+}
+
 sidebar 
 {
   position: -webkit-sticky;
