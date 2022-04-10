@@ -31,17 +31,21 @@ nav *
   display: inline-block;
 }
 
-nav img {
+nav img 
+{
+    display: block;
     margin-left: 40px;
     margin-right: 40px;
     height: 60px;
 }
 
-nav ul {
+nav ul 
+{
     padding: 0;
 }
 
-nav li {
+nav li 
+{
   margin-left: 20px;
   justify-content: space-between;
 }
