@@ -24,7 +24,6 @@ nav
   line-height: 50px;
   background-color: #eee;
   box-shadow: 0 0 10px 0 black;
-  justify-content: space-around;
 }
 
 nav * {
@@ -39,6 +38,7 @@ nav img {
 
 nav ul {
     padding: 0;
+    justify-content: space-between;
 }
 
 nav li {
