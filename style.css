@@ -7,9 +7,10 @@ html
 
 sidebar 
 {
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
   width: 25%;
-  height: 100vh;
+  height: 75vh;
   background: #312450;
   font-size: 0.65em;
 }
