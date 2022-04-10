@@ -25,13 +25,9 @@ nav
   background-color: #eee;
 }
 
-nav * {
-    display: inline;
-    height: 80px;
-}
-
 nav img {
     margin-left: 40px;
+    margin-right: 40px;
     height: 60px;
 }
 
@@ -42,7 +38,6 @@ nav ul {
 
 nav li {
     margin-left: 20px;
-    margin-left: 10px;
 }
 
 hr {
@@ -189,7 +184,6 @@ card {
   flex-direction: column;
   min-height: 100%;
   
-  // sets up hover state
   position: relative;
   top: 0;
   transition: all .1s ease-in;
