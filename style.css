@@ -14,8 +14,8 @@ banner
 nav 
 {
   display: flex;
-  height:80px;
-  
+  height: 80px;
+  position: sticky;
 }
 
 video-section
