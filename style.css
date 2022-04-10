@@ -25,7 +25,7 @@ nav
   background-color: #eee;
 }
 
-*nav
+nav *
 {
   display: inline-block;
 }
