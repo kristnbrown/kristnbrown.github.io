@@ -27,7 +27,7 @@ nav
 
 nav * {
     display: inline;
-    height: 50px;
+    height: 80px;
 }
 
 nav img {
@@ -47,16 +47,40 @@ nav li {
 video-section
 {
   display: flex;
+  height:100vh;
   
 }
 
 gallery-section
 {
   display: flex;
+  height:100vh;
 }
 
 info-section
 {
   display: flex;
+  height:100vh;
+  
+}
+
+#projects
+{
+  background-image: url('images/BG.png');
+}
+
+#3dart
+{
+  background-image: url('images/BGBG.png');
+}
+
+#2dart
+{
+  background-image: url('images/BG.png');
+}
+
+#resume
+{
+  background-image: url('images/BGBG.png');
 }
 
