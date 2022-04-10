@@ -24,7 +24,7 @@ nav
   line-height: 50px;
   background-color: #eee;
   box-shadow: 0 0 10px 0 black;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 nav * {
