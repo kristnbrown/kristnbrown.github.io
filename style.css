@@ -44,25 +44,7 @@ nav li {
     margin-left: 10px;
 }
 
-video-section
-{
-  display: flex;
-  height:100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-gallery-section
-{
-  display: flex;
-  height:100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-info-section
+section
 {
   display: flex;
   height:100vh;
