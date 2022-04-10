@@ -25,6 +25,11 @@ nav
   background-color: #eee;
 }
 
+*nav
+{
+  display: inline-block;
+}
+
 nav img {
     margin-left: 40px;
     margin-right: 40px;
@@ -33,11 +38,11 @@ nav img {
 
 nav ul {
     padding: 0;
-    justify-content: space-between;
 }
 
 nav li {
-    margin-left: 20px;
+  margin-left: 20px;
+  justify-content: space-between;
 }
 
 section
@@ -48,11 +53,6 @@ section
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-container
-{
-  width: 90%;
 }
 
 #projects
