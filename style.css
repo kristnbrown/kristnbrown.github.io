@@ -33,8 +33,7 @@ nav *
 
 nav img 
 {
-    display: block;
-  padding: 40px;
+    display: inline-block;
     height: 60px;
 }
 
