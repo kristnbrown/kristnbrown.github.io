@@ -36,6 +36,7 @@ nav img
 {
   align-items: center;
     height: 60px;
+  line-height: 80px;
     margin-left: 40px;
 }
 
@@ -178,7 +179,6 @@ section
   display: grid; 
   column-gap: 15px;
   row-gap: 25px;
-  margin-top: 20px;
   padding: 30px;
 }
 
@@ -201,6 +201,34 @@ section
   {
     width: 100%;
   }
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+  
+  &:hover{
+    flex: 7;
+  }
+}
+
+.item-1 
+{ 
+  background-image: url('images/Placeholder.png');
+}
+
+.item-2 
+{ 
+  background-image: url('images/Placeholder.png');
+}
+
+.item-3 
+{ 
+  background-image: url('images/Placeholder.png');
 }
 
 h2
