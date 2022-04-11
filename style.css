@@ -178,6 +178,8 @@ section
   display: grid; 
   column-gap: 15px;
   row-gap: 25px;
+  margin-top: 20px;
+  padding: 30px;
 }
 
 .column 
