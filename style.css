@@ -198,6 +198,11 @@ h2
   background-color: #eee;
 }
 
+#about
+{
+  background-image: url('images/BGBG.png');
+}
+
 #projects
 {
   background-image: url('images/BG.png');
@@ -208,8 +213,8 @@ h2
   background-image: url('images/BGBG.png');
 }
 
-#resume
+#contact
 {
-  background-image: url('images/BGBG.png');
+  background-image: url('images/BG.png');
 }
 
