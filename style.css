@@ -21,8 +21,7 @@ nav
   top: 0;
   left: 0;
   right: 0;
-  height: 80px;
-  line-height: 50px;
+  line-height: 80px;
   background-color: #eee;
   text-decoration: none;
 }
@@ -61,13 +60,16 @@ section
   background-size: cover;
 }
 
-.container {
+.container 
+{
   display: flex;
-  padding: 4% 2%;
+  height: 50vh;
+  width:100%;
+  margin-top:30px;
   box-sizing: border-box;
 }
 
-.grid-container
+.grid
 {
   display: grid; 
   column-gap: 15px;
@@ -90,7 +92,7 @@ section
 
 @media screen (max-width: 600px) 
 {
-  column 
+  .column 
   {
     width: 100%;
   }
@@ -106,7 +108,7 @@ section
   line-height: 0;
 }
 
-.box > img 
+.box img 
 {
   width: 200%;
   height: calc(100% - 10vh);
@@ -114,7 +116,8 @@ section
   transition: .5s;
 }
 
-.box > span {
+.box span 
+{
   font-size: 3.8vh;
   display: block;
   text-align: center;
@@ -123,7 +126,8 @@ section
 }
 
 .box:hover { flex: 1 1 50%; }
-.box:hover > img {
+.box:hover img 
+{
   width: 100%;
   height: 100%;
 }
@@ -131,13 +135,12 @@ section
 
 h2
 {
-  display: flex;
+  display:flex;
   height: 80px;
   width: 100vw;
   line-height: 80px;
   margin-top: 100px;
   font-size: 24px;
-  text-color: #000;
   background-color: #eee;
 }
 
