@@ -64,9 +64,11 @@ section
 {
   display: flex;
   height: 50vh;
-  width:70%;
+  width:100%;
   margin-top:30px;
   box-sizing: border-box;
+  justify-content: space-between;
+  align-content: center;
 }
 
 .grid
@@ -118,11 +120,11 @@ section
 
 .box span 
 {
-  font-size: 14px;
+  font-size: 3.8vh;
   display: block;
   text-align: center;
-  height: 16px;
-  line-height: 16px;
+  height: 10px;
+  line-height: 2.6;
 }
 
 .box:hover { flex: 1 1 50%; }
@@ -132,6 +134,14 @@ section
   height: 100%;
 }
  
+.vl 
+{
+  align-items:center;
+  padding-right:15px;
+  border-left: 6px solid green;
+  height: 350px;
+}
+
 
 h2
 {
@@ -162,4 +172,5 @@ h2
 {
   background-image: url('images/BG.png');
 }
+
 
